@@ -1,0 +1,37 @@
+.footer {
+	padding: 17px 0;
+
+	@media screen and (min-width: $tablet) {
+		padding: 100px 0;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__link {
+		line-height: 1.25;
+		color: $primary-text-color;
+	}
+
+	&__svg {
+		@media screen and (min-width: $tablet) {
+			display: none;
+		}
+	}
+
+	&__image {
+		display: flex;
+		width: 100%;
+
+		justify-content: center;
+	}
+
+	&__img {
+		@media screen and (min-width: $tablet) {
+			display: none;
+		}
+	}
+}
